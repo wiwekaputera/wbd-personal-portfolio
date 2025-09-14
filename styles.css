@@ -204,15 +204,6 @@ section h2 {
   box-shadow: 0 8px 30px rgba(30, 41, 59, 0.15);
 }
 
-.project-image {
-  position: relative;
-  height: 10px;
-  background: #1e293b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .project-placeholder {
   color: white;
   font-size: 1.125rem;
