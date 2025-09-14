@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Wiweka Putera's Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="#home">Wiweka Putera</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi! I'm<br />Wiweka Putera</h1>
+            <p>Passionate about creating innovative solutions through code</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="/profile-photo.jpg" alt="Wiweka Putera" class="profile-photo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I'm a passionate developer who loves creating innovative solutions through code. I enjoy working with modern
+            technologies and building applications that make a difference.
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Featured Projects</h2>
+          <p class="section-description">A collection of projects that showcase my skills and passion for development</p>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image"></div>
+              <div class="project-content">
+                <h3>CV Analyzer</h3>
+                <p>
+                  A backend service that analyzes a database of resumes against keywords, returning a ranked list of candidates to
+                  streamline recruitment.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Supabase</span>
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/wiwekaputera/cv-analyzer-backend" class="btn btn-github">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image"></div>
+              <div class="project-content">
+                <h3>Real-Time Chat App</h3>
+                <p>
+                  A WebSocket-based application for instant, real-time messaging, built with a Node.js backend to handle
+                  concurrent connections efficiently.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">Socket.io</span>
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/wiwekaputera/chat-app-backend" class="btn btn-github">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image"></div>
+              <div class="project-content">
+                <h3>Alchemy Recipe Finder</h3>
+                <p>
+                  A high-performance recipe finder for the game Little Alchemy 2, utilizing a Go backend for rapid query
+                  processing.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Go</span>
+                  <span class="tech-tag">Gin</span>
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/wiwekaputera/Tubes2_SemogaGaMasukUGD" class="btn btn-github">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2>Skills & Technologies</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Go</li>
+                <li>Express</li>
+                <li>Flask</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Database</h3>
+              <ul>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>Supabase</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Get In Touch</h2>
+          <div class="contact-grid">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>wiwekaputera@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/wiwekaputera" target="_blank">linkedin.com/in/wiwekaputera</a>
+            </div>
+            <div class="contact-item">
+              <h3>GitHub</h3>
+              <a href="https://github.com/wiwekaputera" target="_blank">github.com/wiwekaputera</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Wiweka Putera. Built with HTML & CSS.</p>
+      </div>
+    </footer>
+  </body>
+</html>
